@@ -1,0 +1,14 @@
+<main class="quiz__container">
+	<h2>Quizzes Disponíveis</h2>
+	<ul>
+		<li *ngFor="let quiz of quizzes" class="quiz">
+			<a [routerLink]="['/', quiz.id]" class="quiz__content">
+				<h3>{{ quiz.title }}</h3>
+				<div class="quiz__img">
+					<img [src]="quiz.img" alt="Imagem da Questão" />
+				</div>
+				<p>{{ quiz.description }}</p>
+			</a>
+		</li>
+	</ul>
+</main>

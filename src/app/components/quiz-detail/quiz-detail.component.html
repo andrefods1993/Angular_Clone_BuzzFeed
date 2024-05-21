@@ -1,0 +1,27 @@
+<main class="quiz__container">
+	<h2>{{ quiz?.title }}</h2>
+	<p>{{ quiz?.description }}</p>
+
+	<div
+		*ngIf="quiz && currentQuestionIndex < quiz.questions.length"
+		class="quiz"
+	>
+		<h3>{{ quiz.questions[currentQuestionIndex].questionText }}</h3>
+		<ul>
+			<li *ngFor="let option of quiz.questions[currentQuestionIndex].options">
+				<button (click)="selectAnswer(option.optionItem)">
+					{{ option.answerText }}
+				</button>
+			</li>
+		</ul>
+	</div>
+
+	<div
+		*ngIf="quiz && currentQuestionIndex >= quiz.questions.length"
+		class="quiz"
+	>
+		<h3>Resultado</h3>
+		<p class="quiz__result">{{ result }}</p>
+		<a [routerLink]="['/']">Voltar</a>
+	</div>
+</main>

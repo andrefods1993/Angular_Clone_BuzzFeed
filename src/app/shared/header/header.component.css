@@ -1,0 +1,14 @@
+header {
+	display: flex;
+	justify-content: center;
+	background-color: var(--bg-color);
+	padding: 1.5rem;
+	box-shadow: var(--shadow-default);
+	position: relative;
+}
+
+header img {
+	width: 50vw;
+	min-width: 250px;
+	max-width: 500px;
+}
