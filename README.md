@@ -36,7 +36,7 @@ Este projeto foi desenvolvido como parte do curso "Trilha de Angular" na platafo
 
 <h2 id="demo">🚀 Demonstração</h2>
 
-Você pode visualizar uma demonstração do projeto [clicando aqui]([https://exemplo.com](https://andrefods1993.github.io/Angular_Clone_BuzzFeed/)).
+Você pode visualizar uma demonstração do projeto [clicando aqui](https://andrefods1993.github.io/Angular_Clone_BuzzFeed/).
 
 <h2 id="author">🧑🏾‍💻 Autor</h2>
 
