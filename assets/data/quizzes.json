@@ -1,0 +1,595 @@
+[
+	{
+		"id": 1,
+		"title": "Qual é o Seu Tipo de Personalidade?",
+		"description": "Descubra seu tipo de personalidade respondendo às perguntas abaixo.",
+		"img": "question1.jpg",
+		"questions": [
+			{
+				"question_id": 1,
+				"questionText": "Como você prefere passar seu tempo livre?",
+				"options": [
+					{
+						"answerText": "Lendo um livro ou assistindo a um filme sozinho",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Saindo com amigos e conhecendo novas pessoas",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Fazendo atividades ao ar livre, como caminhadas ou esportes",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Trabalhando em projetos criativos ou hobbies pessoais",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 2,
+				"questionText": "Como você toma decisões importantes?",
+				"options": [
+					{ "answerText": "Baseado em fatos e lógica", "optionItem": "A" },
+					{ "answerText": "Seguindo meu instinto", "optionItem": "B" },
+					{
+						"answerText": "Pedindo conselhos a amigos e familiares",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Avaliando todos os detalhes e possibilidades",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 3,
+				"questionText": "Qual dessas opções melhor descreve seu ambiente de trabalho ideal?",
+				"options": [
+					{
+						"answerText": "Um escritório silencioso e organizado",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Um espaço colaborativo e dinâmico",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Um local flexível onde eu possa trabalhar remotamente",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Um estúdio ou oficina cheia de ferramentas e materiais",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 4,
+				"questionText": "Quando você enfrenta um problema, como você geralmente reage?",
+				"options": [
+					{
+						"answerText": "Analiso o problema detalhadamente antes de agir",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Confio na minha intuição para encontrar uma solução rápida",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Discuto o problema com outras pessoas para obter diferentes perspectivas",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Procuro soluções criativas e inovadoras",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 5,
+				"questionText": "Qual destas atividades você mais gosta?",
+				"options": [
+					{
+						"answerText": "Resolver quebra-cabeças ou enigmas",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Participar de eventos sociais e festas",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Explorar novos lugares e culturas",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Criar algo novo, como arte ou música",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 6,
+				"questionText": "Como você descreveria sua maneira de se comunicar?",
+				"options": [
+					{ "answerText": "Clara e objetiva", "optionItem": "A" },
+					{ "answerText": "Espontânea e entusiástica", "optionItem": "B" },
+					{ "answerText": "Agradável e empática", "optionItem": "C" },
+					{ "answerText": "Expressiva e criativa", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 7,
+				"questionText": "O que mais te motiva?",
+				"options": [
+					{
+						"answerText": "Conquistas e reconhecimento profissional",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Conexões e relacionamentos pessoais",
+						"optionItem": "B"
+					},
+					{ "answerText": "Aventuras e novas experiências", "optionItem": "C" },
+					{ "answerText": "Expressão pessoal e inovação", "optionItem": "D" }
+				]
+			}
+		],
+		"results": {
+			"A": "Personalidade Analítica. Você é lógico e focado em detalhes. Prefere tomar decisões com base em dados e fatos. Seu ambiente ideal é organizado e tranquilo.",
+			"B": "Personalidade Sociável. Você é extrovertido e adora estar rodeado de pessoas. É guiado por suas emoções e instintos, e gosta de atividades sociais e eventos.",
+			"C": "Personalidade Aventureira. Você ama explorar novos horizontes e experimentar coisas novas. Prefere um estilo de vida flexível e valoriza a liberdade e a aventura.",
+			"D": "Personalidade Criativa. Você é inovador e gosta de se expressar através da arte ou da criação. Gosta de trabalhar em projetos que lhe permitam usar sua imaginação e habilidades criativas."
+		}
+	},
+	{
+		"id": 2,
+		"title": "Qual Linguagem de Programação Combina Mais Com Você?",
+		"description": "Descubra qual linguagem de programação é ideal para você respondendo às perguntas abaixo.",
+		"img": "question2.jpg",
+		"questions": [
+			{
+				"question_id": 1,
+				"questionText": "Qual é o seu principal objetivo ao aprender uma linguagem de programação?",
+				"options": [
+					{ "answerText": "Desenvolver aplicativos móveis", "optionItem": "A" },
+					{ "answerText": "Construir websites interativos", "optionItem": "B" },
+					{
+						"answerText": "Analisar e processar grandes volumes de dados",
+						"optionItem": "C"
+					},
+					{ "answerText": "Criar jogos e simulações", "optionItem": "D" },
+					{
+						"answerText": "Trabalhar em sistemas e infraestrutura",
+						"optionItem": "E"
+					}
+				]
+			},
+			{
+				"question_id": 2,
+				"questionText": "Como você prefere aprender novas tecnologias?",
+				"options": [
+					{
+						"answerText": "Através de tutoriais e cursos online",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Explorando a documentação oficial e fazendo projetos práticos",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Participando de workshops e bootCamps intensivos",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Lendo livros e manuais detalhados",
+						"optionItem": "D"
+					},
+					{
+						"answerText": "Aprendendo com a ajuda de uma comunidade ativa",
+						"optionItem": "E"
+					}
+				]
+			},
+			{
+				"question_id": 3,
+				"questionText": "Em que tipo de ambiente de trabalho você se imagina?",
+				"options": [
+					{
+						"answerText": "Uma startup inovadora e dinâmica",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Uma agência de desenvolvimento web criativa",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Uma grande empresa focada em dados e análise",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Uma empresa de desenvolvimento de jogos",
+						"optionItem": "D"
+					},
+					{
+						"answerText": "Uma corporação que desenvolve software de sistemas",
+						"optionItem": "E"
+					}
+				]
+			},
+			{
+				"question_id": 4,
+				"questionText": "Qual desses projetos mais te interessa?",
+				"options": [
+					{
+						"answerText": "Criar um aplicativo para iOS ou Android",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Desenvolver um site de comércio eletrônico",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Realizar análise de dados para grandes corporações",
+						"optionItem": "C"
+					},
+					{ "answerText": "Projetar um jogo 3D", "optionItem": "D" },
+					{
+						"answerText": "Trabalhar em segurança cibernética",
+						"optionItem": "E"
+					}
+				]
+			},
+			{
+				"question_id": 5,
+				"questionText": "Como você descreveria seu estilo de programação?",
+				"options": [
+					{
+						"answerText": "Prático e orientado a resultados rápidos",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Criativo e voltado para a experiência do usuário",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Analítico e focado em eficiência",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Experimental e voltado para inovação",
+						"optionItem": "D"
+					},
+					{ "answerText": "Meticuloso e focado em robustez", "optionItem": "E" }
+				]
+			},
+			{
+				"question_id": 6,
+				"questionText": "Qual dessas características você valoriza mais em uma linguagem de programação?",
+				"options": [
+					{
+						"answerText": "Popularidade no mercado de trabalho",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Flexibilidade e facilidade de uso",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Poder e eficiência em processamento de dados",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Capacidades gráficas e de simulação",
+						"optionItem": "D"
+					},
+					{
+						"answerText": "Segurança e controle sobre o hardware",
+						"optionItem": "E"
+					}
+				]
+			},
+			{
+				"question_id": 7,
+				"questionText": "Qual é o seu nível atual de experiência em programação?",
+				"options": [
+					{ "answerText": "Iniciante", "optionItem": "A" },
+					{ "answerText": "Intermediário", "optionItem": "B" },
+					{ "answerText": "Avançado", "optionItem": "C" },
+					{
+						"answerText": "Experiente em uma área específica",
+						"optionItem": "D"
+					},
+					{ "answerText": "Profissional em múltiplas áreas", "optionItem": "E" }
+				]
+			}
+		],
+		"results": {
+			"A": "Swift ou Kotlin. Você se interessa por desenvolvimento de aplicativos móveis e prefere resultados rápidos. Swift é ideal para iOS e Kotlin para Android.",
+			"B": "JavaScript. Você é criativo e focado na experiência do usuário, ideal para desenvolvimento web interativo. JavaScript é versátil e amplamente utilizado na web.",
+			"C": "Python. Você é analítico e trabalha com grandes volumes de dados. Python é poderoso para análise de dados, aprendizado de máquina e automação.",
+			"D": "C# ou Unity. Você gosta de jogos e simulações. C# com Unity é uma excelente escolha para desenvolvimento de jogos 2D e 3D.",
+			"E": "C ou Rust. Você prefere trabalhar com sistemas e infraestrutura. C é robusto e amplamente usado em sistemas, enquanto Rust oferece segurança e controle sobre o hardware."
+		}
+	},
+	{
+		"id": 3,
+		"title": "Qual Série de TV de Tecnologia Você Deveria Assistir?",
+		"description": "Descubra qual série de TV de tecnologia é ideal para você respondendo às perguntas abaixo.",
+		"img": "question3.jpg",
+		"questions": [
+			{
+				"question_id": 1,
+				"questionText": "Qual tipo de trama você mais gosta?",
+				"options": [
+					{ "answerText": "Drama intenso e emocional", "optionItem": "A" },
+					{ "answerText": "Comédia leve e divertida", "optionItem": "B" },
+					{ "answerText": "Mistério e suspense", "optionItem": "C" },
+					{ "answerText": "Ficção científica e futurismo", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 2,
+				"questionText": "O que você mais valoriza em uma série de TV?",
+				"options": [
+					{
+						"answerText": "Desenvolvimento profundo de personagens",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Momentos engraçados e descontraídos",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Enredos complexos e reviravoltas",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Exploração de tecnologias avançadas",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 3,
+				"questionText": "Qual cenário de série você prefere?",
+				"options": [
+					{
+						"answerText": "Uma grande empresa de tecnologia",
+						"optionItem": "A"
+					},
+					{ "answerText": "Um ambiente de startup", "optionItem": "B" },
+					{
+						"answerText": "Investigação e crimes cibernéticos",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Um futuro distópico ou tecnológico",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 4,
+				"questionText": "Qual destas atividades mais te atrai?",
+				"options": [
+					{ "answerText": "Resolver problemas complexos", "optionItem": "A" },
+					{
+						"answerText": "Trabalhar em equipe e colaborar",
+						"optionItem": "B"
+					},
+					{ "answerText": "Investigar mistérios e enigmas", "optionItem": "C" },
+					{ "answerText": "Imaginar como será o futuro", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 5,
+				"questionText": "Qual dessas profissões você acha mais interessante?",
+				"options": [
+					{ "answerText": "CEO de uma grande corporação", "optionItem": "A" },
+					{ "answerText": "Desenvolvedor em uma startup", "optionItem": "B" },
+					{ "answerText": "Detetive ou investigador", "optionItem": "C" },
+					{
+						"answerText": "Cientista ou engenheiro futurista",
+						"optionItem": "D"
+					}
+				]
+			}
+		],
+		"results": {
+			"A": "'Mr. Robot'. Você gosta de drama intenso e enredos profundos. 'Mr. Robot' explora a vida de um hacker brilhante com dilemas emocionais e complexos.",
+			"B": "'Silicon Valley'. Você prefere comédia e momentos descontraídos. 'Silicon Valley' é uma sátira hilária sobre a vida em startups de tecnologia.",
+			"C": "'Person of Interest'. Você é fã de mistério e suspense. 'Person of Interest' segue um gênio da computação e um ex-agente da CIA enquanto eles previnem crimes usando IA.",
+			"D": "'Black Mirror'. Você adora ficção científica e explorar futuros possíveis. 'Black Mirror' apresenta episódios independentes que examinam a tecnologia e suas consequências."
+		}
+	},
+	{
+		"id": 4,
+		"title": "Qual Superpoder Tecnológico Você Deveria Ter?",
+		"description": "Descubra qual superpoder tecnológico é ideal para você respondendo às perguntas abaixo.",
+		"img": "question4.jpg",
+		"questions": [
+			{
+				"question_id": 1,
+				"questionText": "Como você lida com problemas no seu dia a dia?",
+				"options": [
+					{
+						"answerText": "Analiso todas as opções antes de agir",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Uso minha criatividade para encontrar soluções inovadoras",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Confio na minha intuição para tomar decisões rápidas",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Peço ajuda a amigos e colaboradores",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 2,
+				"questionText": "Qual dessas invenções você acha mais fascinante?",
+				"options": [
+					{ "answerText": "Inteligência Artificial", "optionItem": "A" },
+					{ "answerText": "Impressora 3D", "optionItem": "B" },
+					{ "answerText": "Realidade Virtual", "optionItem": "C" },
+					{ "answerText": "Internet das Coisas (IoT)", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 3,
+				"questionText": "Se você pudesse melhorar uma habilidade, qual seria?",
+				"options": [
+					{
+						"answerText": "Capacidade de processar informações rapidamente",
+						"optionItem": "A"
+					},
+					{ "answerText": "Criar coisas a partir do nada", "optionItem": "B" },
+					{
+						"answerText": "Transportar-se instantaneamente",
+						"optionItem": "C"
+					},
+					{ "answerText": "Comunicar-se telepaticamente", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 4,
+				"questionText": "Como você prefere passar o tempo livre?",
+				"options": [
+					{
+						"answerText": "Lendo e aprendendo coisas novas",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Fazendo trabalhos manuais ou projetos DIY",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Viajando e explorando novos lugares",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Socializando e conhecendo novas pessoas",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 5,
+				"questionText": "Qual dessas características você mais valoriza?",
+				"options": [
+					{ "answerText": "Conhecimento", "optionItem": "A" },
+					{ "answerText": "Criatividade", "optionItem": "B" },
+					{ "answerText": "Aventura", "optionItem": "C" },
+					{ "answerText": "Conexão", "optionItem": "D" }
+				]
+			}
+		],
+		"results": {
+			"A": "Superinteligência. Você valoriza conhecimento e processamento de informações. Com superinteligência, você poderia resolver qualquer problema em segundos.",
+			"B": "Criação Instantânea. Você é criativo e adora fazer coisas novas. Com criação instantânea, você poderia materializar qualquer objeto ou invenção na hora.",
+			"C": "Teletransporte. Você ama aventuras e explorar novos lugares. Com teletransporte, você poderia viajar instantaneamente para qualquer parte do mundo.",
+			"D": "Telepatia. Você valoriza conexões e comunicação. Com telepatia, você poderia se comunicar instantaneamente com qualquer pessoa, sem barreiras linguísticas."
+		}
+	},
+	{
+		"id": 5,
+		"title": "Qual Personagem de Tecnologia Você Seria?",
+		"description": "Descubra qual personagem famoso da área de tecnologia você seria respondendo às perguntas abaixo.",
+		"img": "question5.jpg",
+		"questions": [
+			{
+				"question_id": 1,
+				"questionText": "Qual área da tecnologia mais te interessa?",
+				"options": [
+					{ "answerText": "Desenvolvimento de software", "optionItem": "A" },
+					{
+						"answerText": "Inteligência Artificial e Machine Learning",
+						"optionItem": "B"
+					},
+					{ "answerText": "Cibersegurança", "optionItem": "C" },
+					{ "answerText": "Robótica e automação", "optionItem": "D" }
+				]
+			},
+			{
+				"question_id": 2,
+				"questionText": "Qual é a sua abordagem ao resolver problemas?",
+				"options": [
+					{ "answerText": "Análise meticulosa de dados", "optionItem": "A" },
+					{
+						"answerText": "Experimentação e tentativa de novas soluções",
+						"optionItem": "B"
+					},
+					{ "answerText": "Prevenção de possíveis falhas", "optionItem": "C" },
+					{
+						"answerText": "Criação de soluções automatizadas",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 3,
+				"questionText": "Qual dessas áreas você valoriza mais em um projeto de tecnologia?",
+				"options": [
+					{
+						"answerText": "Interface amigável e experiência do usuário",
+						"optionItem": "A"
+					},
+					{ "answerText": "Desempenho e eficiência", "optionItem": "B" },
+					{ "answerText": "Segurança e proteção de dados", "optionItem": "C" },
+					{
+						"answerText": "Automatização de tarefas repetitivas",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 4,
+				"questionText": "Como você se descreveria em uma equipe de trabalho?",
+				"options": [
+					{ "answerText": "Líder visionário e inspirador", "optionItem": "A" },
+					{ "answerText": "Inovador e criativo", "optionItem": "B" },
+					{
+						"answerText": "Protetor e guardião dos sistemas",
+						"optionItem": "C"
+					},
+					{
+						"answerText": "Eficiente e eficaz na execução de tarefas",
+						"optionItem": "D"
+					}
+				]
+			},
+			{
+				"question_id": 5,
+				"questionText": "Qual desses hobbies você prefere?",
+				"options": [
+					{
+						"answerText": "Ler e aprender sobre novas tecnologias",
+						"optionItem": "A"
+					},
+					{
+						"answerText": "Explorar projetos de código aberto",
+						"optionItem": "B"
+					},
+					{
+						"answerText": "Participar de eventos de segurança cibernética",
+						"optionItem": "C"
+					},
+					{ "answerText": "Montar e programar robôs", "optionItem": "D" }
+				]
+			}
+		],
+		"results": {
+			"A": "Você seria como Steve Jobs. Líder visionário e inspirador, focado na experiência do usuário e na inovação.",
+			"B": "Você seria como Elon Musk. Inovador e criativo, sempre buscando novas soluções e tecnologias disruptivas.",
+			"C": "Você seria como Edward Snowden. Protetor e guardião dos sistemas, preocupado com a segurança e privacidade dos dados.",
+			"D": "Você seria como Ada Lovelace. Eficiente e eficaz na execução de tarefas técnicas, especialmente na automação e robótica."
+		}
+	}
+]
